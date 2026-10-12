@@ -1,0 +1,22 @@
+
+> cart-starter@1.0.0 test
+> node --test
+
+✔ the example from the slides (0.5133ms)
+✔ empty cart returns zero (0.5039ms)
+✔ free shipping at exact threshold (0.0684ms)
+✔ shipping applies below threshold (0.0665ms)
+✔ negative price throws RangeError (0.2386ms)
+✔ fractional quantity throws RangeError (0.0716ms)
+✔ zero quantity throws RangeError (0.0648ms)
+✔ negative quantity throws RangeError (0.0651ms)
+✔ rounds final total (0.0884ms)
+✔ returns a number (0.1049ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 59.8604

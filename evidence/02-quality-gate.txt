@@ -1,0 +1,31 @@
+
+> cart-starter@1.0.0 check
+> npm run format:check && npm test
+
+
+> cart-starter@1.0.0 format:check
+> node scripts/check-format.mjs
+
+Format check passed
+
+> cart-starter@1.0.0 test
+> node --test
+
+✔ the example from the slides (0.4984ms)
+✔ empty cart returns zero (0.5051ms)
+✔ free shipping at exact threshold (0.072ms)
+✔ shipping applies below threshold (0.0672ms)
+✔ negative price throws RangeError (0.2308ms)
+✔ fractional quantity throws RangeError (0.0758ms)
+✔ zero quantity throws RangeError (0.0722ms)
+✔ negative quantity throws RangeError (0.0641ms)
+✔ rounds final total (0.1063ms)
+✔ returns a number (0.1349ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 61.3487

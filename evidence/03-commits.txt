@@ -1,0 +1,4 @@
+6ec6d3f Add AI-LOG.md
+e9c43db Implement cartTotal and add unit tests
+fe18234 Set up harness and quality checks
+56048c0 Starter for IA#1: cartTotal with one failing test
